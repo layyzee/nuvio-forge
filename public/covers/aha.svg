@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aha-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D1200"/>
+      <stop offset="60%" stop-color="#140500"/>
+      <stop offset="100%" stop-color="#050100"/>
+    </linearGradient>
+    <radialGradient id="aha-glow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#FF5500" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FF5500" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#aha-bg)"/>
+  <rect width="640" height="360" rx="24" fill="url(#aha-glow)"/>
+  <rect width="636" height="356" x="2" y="2" rx="22" fill="none" stroke="rgba(255, 85, 0, 0.4)" stroke-width="2"/>
+
+  <g transform="translate(320, 155)">
+    <text text-anchor="middle" font-family="'Arial Rounded MT Bold', sans-serif" font-size="74" fill="#FF5500" letter-spacing="-2">aha<tspan fill="#FFFFFF" font-size="40">!</tspan></text>
+    <text y="58" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="13" fill="#FFB088" letter-spacing="4">100% TELUGU &amp; TAMIL CINEMA</text>
+  </g>
+</svg>

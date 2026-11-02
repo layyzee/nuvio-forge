@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="disney-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1838"/>
+      <stop offset="60%" stop-color="#030814"/>
+      <stop offset="100%" stop-color="#010308"/>
+    </linearGradient>
+    <radialGradient id="disney-glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1B6DF5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1B6DF5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#disney-bg)"/>
+  <rect width="640" height="360" rx="24" fill="url(#disney-glow)"/>
+  <rect width="636" height="356" x="2" y="2" rx="22" fill="none" stroke="rgba(27, 109, 245, 0.3)" stroke-width="2"/>
+
+  <g transform="translate(320, 160)">
+    <path d="M -150,-10 C -50,-80 50,-80 150,-10" fill="none" stroke="#52A1FF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="150" cy="-10" r="4" fill="#FFFFFF"/>
+    <text text-anchor="middle" font-family="'Georgia', serif" font-weight="900" font-size="54" fill="#FFFFFF" letter-spacing="2">Disney<tspan fill="#52A1FF" font-size="60">+</tspan></text>
+    <text y="60" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="13" fill="#9CC5FF" letter-spacing="5">PIXAR • MARVEL • STAR WARS</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="jio-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0026"/>
+      <stop offset="50%" stop-color="#1A0010"/>
+      <stop offset="100%" stop-color="#0A0006"/>
+    </linearGradient>
+    <radialGradient id="jio-glow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#E5007D" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#E5007D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#jio-bg)"/>
+  <rect width="640" height="360" rx="24" fill="url(#jio-glow)"/>
+  <rect width="636" height="356" x="2" y="2" rx="22" fill="none" stroke="rgba(229, 0, 125, 0.4)" stroke-width="2"/>
+
+  <g transform="translate(320, 155)">
+    <circle cx="-135" cy="-8" r="28" fill="#E5007D"/>
+    <text x="-135" y="3" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="30" fill="#FFFFFF">Jio</text>
+    <text x="25" y="2" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="46" fill="#FFFFFF" letter-spacing="1">Cinema</text>
+    <text y="60" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FF77C2" letter-spacing="4">HBO IN INDIA • JIO STUDIOS • CRICKET &amp; BIGG BOSS</text>
+  </g>
+</svg>

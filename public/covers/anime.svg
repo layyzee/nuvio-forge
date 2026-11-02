@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ani-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#380826"/>
+      <stop offset="60%" stop-color="#12010B"/>
+      <stop offset="100%" stop-color="#050003"/>
+    </linearGradient>
+    <radialGradient id="ani-glow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#D946EF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D946EF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#ani-bg)"/>
+  <rect width="640" height="360" rx="24" fill="url(#ani-glow)"/>
+  <rect width="636" height="356" x="2" y="2" rx="22" fill="none" stroke="rgba(217, 70, 239, 0.4)" stroke-width="2"/>
+
+  <g transform="translate(320, 155)">
+    <text text-anchor="middle" font-family="'Impact', Arial, sans-serif" font-size="56" fill="#FFFFFF" letter-spacing="3">ANIME <tspan fill="#F0ABFC">VAULT</tspan></text>
+    <text y="55" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#F5D0FE" letter-spacing="4">SIMULCASTS • CRUNCHYROLL • TOP AIRING</text>
+  </g>
+</svg>
